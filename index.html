@@ -2,81 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="My Resume" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Baltodano - Resume</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>My Resume</h1>
-    <img src="./Images/Profile Picture.jpg" alt="Ian Profile Photo AI Generated" height="200" /><br />
-    <h4>Ian Baltodano</h4>
-    <h2>About Me:</h2>
-    <p>
-    Customer service and operations professional with over 6 years of
-experience supporting e-commerce brands and digital
-businesses. Strong background in phone, chat, and email support,
-dispute resolution, and process optimization. Known for being
-proactive, fast to learn, highly empathetic with customers, and
-transactional when situations require firm decision-making.
-Experienced in working with international teams and managing
-multiple responsibilities in fast-paced environments.
-</p>
-    <h2>Education</h2>
-    <ul>
-        <li>
-            <h4>Colegio Bautista - Masaya</h4>
-             <p>High School Diploma</p>
-        </li>
-       
-        <li>
-            <h4>Universidad Martin Luther King</h4>
-            <p>Bachelor's Degree in Business Administration</p>
-        </li>
-        
-    </ul>
-    <hr />
-    <h2>Work Experience</h2>
-    <ol>
-        <li>
-            <h4>Alcor Media Group Inc.</h4>
-            <p>CS Supervisor / E-commerce - March 2020 - Present</p>
-        </li>
-        <li>
-            <h4>Rooftops Inc. (Upwork – Remote)</h4>
-            <p>Sales Representative - January 2020 – March 2020</p>
-        </li>
-        <li>
-            <h4>Ibex Nicaragua</h4>
-        <p>Customer Service - November 2018 – January 2020</p>
-        </li>
-        <li>
-            <h4>Accedo Technologies</h4>
-            <p>Customer Service - October 2017 – October 2018</p>
-        </li>
-    </ol>
-    <hr />
-    <h2>Skills</h2>
-    <ul>
-        <li>Customer Service (Phone, Chat, Email)</li>
-        <li>E-commerce Operations</li>
-        <li>Disputes & Chargebacks</li>
-        <li>Sales & Customer Retention</li>
-        <li>Team Training & Supervision</li>
-        <li>High Empathy Communication</li>
-    </ul>
-    <hr />
-    <h2>Languages</h2>
-    <ul>
-        <li>English (Fluent)</li>
-        <li>Spanish (Native)</li>
-    </ul>
-    <hr />
-    <a href="./Public/Hobbies.html">My Hobbies</a><br />
-    <a href="./Public/Contact me.html">Contact Me</a>
-    <hr />
-    <footer>
-        <small>
-        <p>© 2026 Ian Baltodano. All rights reserved.</p>
-        </small>
-        </footer>
+    <header class="header">
+        <div class="container">
+            <h1 class="main-title">Ian Baltodano</h1>
+            <p class="subtitle">Customer Service & Operations Professional</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="./Public/Hobbies.html">Hobbies</a></li>
+                <li><a href="./Public/Contact me.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="./Images/Profile Picture.jpg" alt="Ian Baltodano Profile Photo" />
+                    </div>
+                    <div class="profile-info">
+                        <h2>About Me</h2>
+                        <p>Customer service and operations professional with over 6 years of experience supporting e-commerce brands and digital businesses. Strong background in phone, chat, and email support, dispute resolution, and process optimization.</p>
+                        <p>Known for being proactive, fast to learn, highly empathetic with customers, and transactional when situations require firm decision-making. Experienced working with international teams and managing multiple responsibilities in fast-paced environments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2><i class="fas fa-tools"></i> Skills & Languages</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Professional Skills</h3>
+                        <ul>
+                            <li><i class="fas fa-headset"></i> Customer Service (Phone, Chat, Email)</li>
+                            <li><i class="fas fa-shopping-cart"></i> E-commerce Operations</li>
+                            <li><i class="fas fa-gavel"></i> Disputes & Chargebacks</li>
+                            <li><i class="fas fa-chart-line"></i> Sales & Customer Retention</li>
+                            <li><i class="fas fa-users"></i> Team Training & Supervision</li>
+                            <li><i class="fas fa-heart"></i> High Empathy Communication</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li><i class="fas fa-language"></i> English (Fluent)</li>
+                            <li><i class="fas fa-language"></i> Spanish (Native)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>CS Supervisor / E-commerce</h3>
+                            <h4>Alcor Media Group Inc.</h4>
+                            <p class="date">March 2020 - Present</p>
+                            <p>Led customer service operations and e-commerce support for digital businesses.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Sales Representative</h3>
+                            <h4>Rooftops Inc. (Upwork – Remote)</h4>
+                            <p class="date">January 2020 – March 2020</p>
+                            <p>Managed sales and customer acquisition for remote projects.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Customer Service</h3>
+                            <h4>Ibex Nicaragua</h4>
+                            <p class="date">November 2018 – January 2020</p>
+                            <p>Provided comprehensive customer support services.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <h3>Customer Service</h3>
+                            <h4>Accedo Technologies</h4>
+                            <p class="date">October 2017 – October 2018</p>
+                            <p>Delivered technical support and customer assistance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3>Universidad Martin Luther King</h3>
+                        <p>Bachelor's Degree in Business Administration</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Colegio Bautista - Masaya</h3>
+                        <p>High School Diploma</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ian Baltodano. All rights reserved.</p>
+            <div class="social-links">
+                <a href="./Public/Contact me.html"><i class="fas fa-envelope"></i></a>
+                <a href="./Public/Hobbies.html"><i class="fas fa-gamepad"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
